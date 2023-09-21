@@ -16,8 +16,6 @@ cap.set(2, 1080)
 pTime = 0
 cTime = 0
 
-header = cv2.imread('drawer.png')
-
 detector = htm.HandDetector(detectionCon=0.75)
 
 count = 0
